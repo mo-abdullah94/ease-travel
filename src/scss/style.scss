@@ -1,0 +1,72 @@
+@forward "_variables";
+@forward "_colors";
+@forward "_global";
+@forward "_typography";
+@forward "_mixins";
+@use "_functions" as *;
+
+.App {
+
+  header {
+    min-height: rem(728);
+    width: 100%;
+    background-color: var(--background);
+    background-image: url("../assets/header-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+  
+    nav {
+      height: rem(104);
+      border-bottom: rem(1) var(--white) solid;
+
+      .Nav-menu {
+
+        ul {
+          padding: 0;
+          gap: rem(55);
+
+          li {
+
+            &:first-child {
+              font-weight: 700;
+            }
+            
+            a {
+              color: var(--white);
+            }
+        
+          }
+
+        }
+
+      }
+
+      .Login-btn {
+
+        a {
+          color: var(--white);
+          gap: rem(10);
+        }
+
+      }
+    }
+
+    .Header-main {
+      gap: rem(40);
+      text-align: center;
+      margin-top: rem(144);
+
+      h1, p {
+        color: var(--white);
+      }
+
+      p {
+        max-width:  rem(520);
+      }
+    }
+  
+  }
+
+}

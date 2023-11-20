@@ -1,0 +1,101 @@
+@use "_functions" as *;
+
+body {
+  font-family: "brandon-grotesque", sans-serif;
+  line-height: 1.5; // 1.618 is the golden ratio
+  font-size: rem(13);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  font-size: rem(59);
+  line-height: normal;
+
+  // @media #{$mq-1000-up}{
+  //     font-size: 3rem;
+  // }
+}
+
+h2 {
+  font-size: rem(51);
+  line-height: normal;
+
+  // @media #{$mq-1000-up}{
+  //     font-size: 2rem;
+  // }
+}
+
+h3 {
+  font-size: rem(44);
+  line-height: normal;
+
+  // @media #{$mq-1000-up}{
+  //     font-size: 1.5rem;
+  // }
+}
+
+h4 {
+  font-size: rem(38);
+  line-height: normal;
+}
+
+h5 {
+  font-size: rem(33);
+  line-height: normal;
+}
+
+h6 {
+  font-size: rem(28);
+  line-height: normal;
+}
+
+.t1 {
+  font-size: rem(24);
+  font-weight: 400;
+}
+
+.t2 {
+  font-size: rem(21);
+  font-weight: 400;
+}
+
+.b1 {
+  font-size: rem(18);
+}
+
+.b2 {
+  font-size: rem(16);
+  font-weight: 400;
+}
+
+.b3 {
+  font-size: rem(13);
+  font-weight: 400;
+}
+
+.b4 {
+  font-size: rem(10);
+  font-weight: 400;
+}
+
+p {
+  font-weight: normal;
+  margin: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
