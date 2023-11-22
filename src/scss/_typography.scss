@@ -3,7 +3,7 @@
 body {
   font-family: "brandon-grotesque", sans-serif;
   line-height: 1.5; // 1.618 is the golden ratio
-  font-size: rem(13);
+  font-size: rem(14);
 }
 
 h1,
@@ -61,36 +61,44 @@ h6 {
 
 .t1 {
   font-size: rem(24);
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
 }
 
 .t2 {
   font-size: rem(21);
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
 }
 
 .b1 {
+  font-family: "brandon-grotesque", sans-serif;
   font-size: rem(18);
 }
 
 .b2 {
   font-size: rem(16);
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
 }
 
 .b3 {
-  font-size: rem(13);
+  font-size: rem(14);
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
 }
 
 .b4 {
   font-size: rem(10);
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
 }
 
 p {
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: normal;
   margin: 0;
+  padding: 0;
 }
 
 a,
