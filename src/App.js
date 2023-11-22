@@ -64,7 +64,7 @@ function App() {
               <input className='b3' type="search" placeholder="Search destination" name="search"></input>
             </form>
 
-            <button className='price-range-btn flex-ai-c'>
+            <button className='price-range-btn flex-ai-c flex-jc-c'>
 
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_45_1770)">
@@ -88,7 +88,7 @@ function App() {
 
             </button>
 
-            <button className='hotels-btn flex-ai-c'>
+            <button className='hotels-btn flex-ai-c flex-jc-c'>
 
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_45_1779)">

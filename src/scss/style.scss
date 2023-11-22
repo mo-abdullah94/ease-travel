@@ -93,9 +93,69 @@
           background-color: transparent;
 
           &::placeholder {
-            opacity: 0.5;
+            opacity: 0.6;
           }
 
+        }
+
+      }
+
+      .price-range-btn {
+        width: rem(244);
+        height: rem(86);
+        border-radius: rem(48);
+        gap: rem(20);
+        background-color: var(--white);
+        border: rem(1) solid var(--ltGray);
+        transition: background-color 200ms ease;
+
+        svg:last-child {
+          margin-left: rem(25);
+        }
+
+        &:hover {
+          cursor: pointer;
+          background-color: var(--background);
+          transition: background-color 200ms ease;
+        }
+
+      }
+
+      .hotels-btn {
+        width: rem(244);
+        height: rem(86);
+        border-radius: rem(48);
+        gap: rem(20);
+        color: var(--white);
+        background-color: var(--primary);
+        transition: background-color 200ms ease;
+
+        svg:last-child {
+          margin-left: rem(10);
+        }
+
+        &:hover {
+          cursor: pointer;
+          background-color: var(--black);
+          transition: background-color 200ms ease;
+        }
+
+      }
+
+      .submit-btn {
+        width: rem(186);
+        height: rem(86);
+        border-radius: rem(48);
+        border: none;
+        background-color: var(--accent);
+        color: var(--black);
+        transition: all 200ms ease;
+
+        &:hover {
+          cursor: pointer;
+          background-color: var(--black);
+          color: var(--white);
+          transition: all 200ms ease;
         }
 
       }
