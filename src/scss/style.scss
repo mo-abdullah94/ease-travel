@@ -73,7 +73,7 @@
       background-color: var(--white);
       gap: rem(20);
       border-radius: rem(94);
-      box-shadow: 0px 21px 46px 0px rgba(0, 0, 0, 0.10), 0px 84px 84px 0px rgba(0, 0, 0, 0.09), 0px 189px 114px 0px rgba(0, 0, 0, 0.05), 0px 336px 135px 0px rgba(0, 0, 0, 0.01), 0px 526px 147px 0px rgba(0, 0, 0, 0.00);
+      box-shadow: 0px 21px 46px 0px rgba(0, 0, 0, 0.10), 0px 84px 84px 0px rgba(0, 0, 0, 0.09), 0px 189px 114px 0px rgba(0, 0, 0, 0.05), 0px 336px 135px 0px rgba(0, 0, 0, 0.01), 0px 526px 147px 0px rgba(0, 0, 0, 0.00), 0px 0px 0px 20px rgba(255, 255, 255, 0.2);
       z-index: 100;
       position: relative;
       top: rem(100);
@@ -91,11 +91,18 @@
           outline: none;
           border: none;
           background-color: transparent;
+          padding: rem(43) 0;
 
           &::placeholder {
             opacity: 0.6;
           }
 
+        }
+
+        &:hover {
+          cursor: text;
+          background-color: var(--background);
+          transition: background-color 200ms ease;
         }
 
       }
