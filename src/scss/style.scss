@@ -244,7 +244,7 @@
               cursor: pointer;
               position: relative;
               top: rem(100);
-              opacity: 0;
+              display: none;
 
               &:hover {
                 background-color: var(--background);
@@ -257,7 +257,7 @@
             .loc-info {
               button {
                 top: 0;
-                opacity: 1;
+                display: block;
 
               }
             }
