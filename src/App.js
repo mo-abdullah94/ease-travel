@@ -130,7 +130,7 @@ function App() {
 
             <div className='dest-heading'>
               <p className='b1'>Destinations</p>
-              <div className='flex-jc-sa'>
+              <div className='heading-content flex-jc-sb flex-ai-fe'>
                 <h2>Discover your next adventure.</h2>
                 <p className='b1'>Plan your dream vacation with our app and enjoy amazing discounts on flights, hotels, and activities.</p>
               </div>
@@ -140,9 +140,10 @@ function App() {
             </div>
 
             <div className='dest-locations'>
-              <div className='dest-wd'>
 
-                <div className='loc-pk flex-jc-c'>
+              <div className='loc-wrap-lg'>
+
+                <div className='loc-price flex-jc-c flex-ai-c'>
                   <span className='flex-col flex-ai-fs'>
                     <p className='b4'>15 - 23 October</p>
                     <p className='b2'>Maxandrea Hotel</p>
@@ -153,8 +154,7 @@ function App() {
                   </span>
                 </div>
 
-                <div className='flex-jc-c'>
-
+                <div className='loc-info flex-jc-sb flex-ai-fe'>
                   <div className='loc-name flex-ai-c'>
                     <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M13.6562 2.80487C10.5322 -0.268128 5.46716 -0.268128 2.34316 2.80487C1.60145 3.52951 1.01207 4.3951 0.60968 5.35078C0.207288 6.30646 0 7.33293 0 8.36987C0 9.40681 0.207288 10.4333 0.60968 11.389C1.01207 12.3446 1.60145 13.2102 2.34316 13.9349L7.99917 19.4999L13.6562 13.9349C14.3979 13.2102 14.9873 12.3446 15.3897 11.389C15.792 10.4333 15.9993 9.40681 15.9993 8.36987C15.9993 7.33293 15.792 6.30646 15.3897 5.35078C14.9873 4.3951 14.3979 3.52951 13.6562 2.80487ZM7.99917 10.9999C7.33117 10.9999 6.70417 10.7399 6.23117 10.2679C5.76292 9.79862 5.49994 9.16278 5.49994 8.49987C5.49994 7.83696 5.76292 7.20112 6.23117 6.73187C6.70317 6.25987 7.33117 5.99987 7.99917 5.99987C8.66716 5.99987 9.29516 6.25987 9.76716 6.73187C10.2354 7.20112 10.4984 7.83696 10.4984 8.49987C10.4984 9.16278 10.2354 9.79862 9.76716 10.2679C9.29516 10.7399 8.66716 10.9999 7.99917 10.9999Z" fill="white"/>
@@ -162,11 +162,11 @@ function App() {
                     <p className='t1'>Philippines</p>
                   </div>
 
-                  <button className='loc-btn'>Book Now</button>
-
+                  <button className='loc-btn b3'>Book Now</button>
                 </div>
 
               </div>
+
             </div>
 
           </section>
