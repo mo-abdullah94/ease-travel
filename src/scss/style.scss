@@ -175,6 +175,7 @@
 
     .dest-section {
       margin-top: rem(150);
+      min-height: rem(1144);
 
       .dest-heading {
 
@@ -490,7 +491,23 @@
         }
 
       }
+
     }
+
+    // .linear-carousel {
+    //   min-height: rem(148);
+    //   background-color: var(--primary);
+    //   gap: 2%;
+    //   overflow-x: hidden;
+
+    //   svg {
+    //     min-width: 100%;
+    //     min-height: 100%;
+    //   }
+    // }
+
+    
+    
   }
 
 }
