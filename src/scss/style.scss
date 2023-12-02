@@ -434,6 +434,35 @@
       }
     }
 
+    .services-section {
+
+      width: 100%;
+      margin: 0;
+      padding-top: rem(174);
+      min-height: rem(734);
+      background-color: var(--background);
+      //clip-path: polygon(0 0, 100% 0, 100% 65%, 0 35%);
+      overflow: visible;
+
+      .services-heading {
+        .b1 {
+          color: var(--secondary);
+        }
+      }
+
+      .services-discounts {
+
+        .b1 {
+          margin-top: rem(44);
+          margin-bottom: rem(30);
+        }
+
+        .discounts-cat {
+          
+        }
+      }
+    }
+
 
 
     
