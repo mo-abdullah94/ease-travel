@@ -100,121 +100,55 @@ ul {
 }
 
 .primary-button {
-  margin: 0 rem(5);
-  padding: rem(6.5) rem(19.2);
-  display: inline-block;
-  font-size: rem(15);
-  font-weight: 600;
+  padding: rem(21) rem(53);
+  background-color: var(--primary);
   border: none;
-  border-radius: rem(19);
-  background-color: var(--mainColor);
-  color: var(--white);
+  border-radius: rem(32);
+  cursor: pointer;
+  transition: all 300ms ease;
+  
   &:hover {
-    cursor: pointer;
-  }
-  svg {
-    margin-left: rem(5);
-  }
-}
-
-.primary-button-border {
-  margin: 0 rem(5);
-  padding: rem(6.5) rem(19.2);
-  display: inline-block;
-  font-size: rem(15);
-  font-weight: 600;
-  border: rem(1) solid var(--mainColor);
-  border-radius: rem(19);
-  background-color: transparent;
-  color: var(--mainColor);
-  transition: all 0.3s;
-  &:hover {
-    cursor: pointer;
-    background-color: var(--mainColor);
-    color: var(--white);
-  }
-  svg {
-    margin-left: rem(5);
+    background-color: var(--black);
   }
 }
 
 .secondary-button {
-  margin: 0 rem(5);
-  padding: rem(6.5) rem(19.2);
-  display: inline-block;
-  font-size: rem(15);
-  font-weight: 600;
+  padding: rem(21) rem(53);
+  background-color: var(--secondary);
   border: none;
-  border-radius: rem(19);
-  background-color: var(--black);
-  color: white;
-  &:hover {
-    cursor: pointer;
-  }
-  svg {
-    margin-left: rem(5);
-  }
-}
-
-.secondary-button-border {
-  margin: 0 rem(5);
-  padding: rem(6.5) rem(19.2);
-  display: inline-block;
-  font-size: rem(15);
-  font-weight: 600;
-  border: rem(1) solid var(--black);
-  border-radius: rem(19);
-  background-color: transparent;
-  color: var(--black);
-  transition: all 0.3s;
-
-  img {
-    width: rem(10);
-    margin-left: rem(5);
-    display: none;
-    transform: translateX(rem(-5));
-    transition: all 0.2s;
-  }
-
-  &:hover {
-    cursor: pointer;
-    background-color: var(--black);
-    color: white;
-
-    img {
-      transform: translateX(0);
-      display: inline;
-    }
-  }
-
-  svg {
-    margin-left: rem(5);
-  }
-}
-
-.trans-button {
-  margin: 0 rem(5);
-  padding: rem(9.5) rem(19.2);
-  font-size: rem(15);
-  font-weight: 600;
-  border: none;
-  background-color: none;
-  color: var(--black);
+  border-radius: rem(32);
+  cursor: pointer;
+  transition: all 300ms ease;
   
-  img {
-    width: rem(10);
-    margin-left: rem(5);
-    opacity: 0;
-    transform: translateX(rem(-5));
-    transition: all 0.2s;
-  }
-
   &:hover {
-    cursor: pointer;
-
-    img {
-      transform: translateX(0);
-      opacity: 1;
-    }
+    background-color: var(--black);
   }
 }
+
+.accent-button {
+  padding: rem(21) rem(53);
+  background-color: var(--accent);
+  border: none;
+  border-radius: rem(32);
+  cursor: pointer;
+  transition: all 300ms ease;
+  
+  &:hover {
+    background-color: var(--accent);
+  }
+}
+
+.white-button {
+  padding: rem(21) rem(53);
+  background-color: var(--white);
+  border: none;
+  border-radius: rem(32);
+  cursor: pointer;
+  transition: all 300ms ease;
+  
+  &:hover {
+    background-color: var(--accent);
+  }
+}
+
+
