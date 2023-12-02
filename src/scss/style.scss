@@ -436,31 +436,112 @@
 
     .services-section {
 
-      width: 100%;
-      margin: 0;
-      padding-top: rem(174);
+      margin-top: rem(174);
       min-height: rem(734);
-      background-color: var(--background);
       //clip-path: polygon(0 0, 100% 0, 100% 65%, 0 35%);
       overflow: visible;
+      flex-wrap: wrap;
+
+      &::before {
+        content: "";
+        margin-top: rem(-174);
+        height: 135%;
+        width: 100%;
+        background-color: var(--background);
+        color: var(--ltGray);
+        position: absolute;
+        z-index: -100;
+        clip-path: polygon(0 0, 100% 0, 100% 65%, 0 35%);
+
+      }
 
       .services-heading {
-        .b1 {
-          color: var(--secondary);
+
+        gap: rem(54);
+
+        .heading-content {
+  
+          .b1 {
+            color: var(--secondary);
+          }
+  
+          span {
+            margin-left: rem(28);
+            position: relative;
+            top: rem(30);
+          }
+  
+        }
+
+        .services-discounts {
+  
+          .b1 {
+            margin-bottom: rem(30);
+          }
+  
+          .discounts-cat {
+            gap: rem(94);
+  
+            .cat {
+              gap: rem(20);
+            }
+          }
+        }
+
+        .services-btn {
+          margin-top: rem(21);
+        }
+
+      }
+
+      .services-video {
+        width: rem(520);
+        height: rem(634);
+        border-radius: rem(40);
+        background-image: url("../assets/video-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 11px 20px 50px 0px rgba(0, 0, 0, 0.15), 46px 78px 91px 0px rgba(0, 0, 0, 0.13), 103px 177px 123px 0px rgba(0, 0, 0, 0.08), 183px 314px 145px 0px rgba(0, 0, 0, 0.02), 286px 490px 159px 0px rgba(0, 0, 0, 0.00);
+
+        .content-wrap {
+
+          width: 85%;
+          height: 90%;
+          margin: 0 auto;
+
+          .video-title {
+            color: var(--white);
+          }
+
+          .video-btn {
+            //padding: rem(24);
+            width: rem(68);
+            height: rem(68);
+            background-color: var(--white);
+            border-radius: 50%;
+            opacity: 0.7;
+            backdrop-filter: blur(rem(5));
+            margin: 0 auto;
+
+            // svg {
+            //   margin: 0 auto;
+            // }
+          }
+
+          .video-progress {
+            .b4 {
+              color: var(--white);
+            }
+
+            svg {
+              max-width: 100%;
+            }
+          }
+
         }
       }
 
-      .services-discounts {
-
-        .b1 {
-          margin-top: rem(44);
-          margin-bottom: rem(30);
-        }
-
-        .discounts-cat {
-          
-        }
-      }
     }
 
 

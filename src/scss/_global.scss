@@ -134,7 +134,8 @@ ul {
   transition: all 300ms ease;
   
   &:hover {
-    background-color: var(--accent);
+    background-color: var(--black);
+    color: var(--white);
   }
 }
 
