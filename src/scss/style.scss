@@ -181,6 +181,7 @@
 
         p:first-child {
           color: var(--secondary);
+          margin-bottom: rem(8);
         }
 
         .heading-content {
@@ -461,8 +462,9 @@
 
         .heading-content {
   
-          .b1 {
+          p:first-child {
             color: var(--secondary);
+            margin-bottom: rem(8);
           }
   
           span {
@@ -544,7 +546,82 @@
 
     }
 
+    .act-section {
 
+      min-height: rem(778);
+      background-color: beige;
+      
+      .container {
+
+        .act-left {
+          max-width: rem(520);
+          background-color: antiquewhite;
+          gap: rem(54);
+
+          .act-heading {
+
+            p:first-child {
+              color: var(--secondary);
+              margin-bottom: rem(8);
+            }
+
+            .heading-content {
+              gap: rem(54);
+            }
+          }
+
+          .act-options{
+  
+              gap: rem(50);
+              flex-wrap: wrap;
+  
+              .flex-col {
+                gap: rem(18);
+              }
+          }
+        }
+
+        .act-search {
+
+            background-color: var(--primary);
+            border-radius: rem(40);
+            //width: rem(20);
+            gap: rem(20);
+            flex-wrap: wrap;
+            //flex-shrink: inherit;
+            padding: rem(20);
+            width: fit-content;
+
+            & > div {
+              width: rem(220);
+              height: rem(64);
+              gap: rem(20);
+              padding: rem(5) rem(30);
+
+              input {
+                outline: none;
+                border: none;
+                background-color: transparent;
+                //width: rem(90);
+                padding: rem(5) 0;
+              }
+
+              &:hover {
+                background-color: var(--white);
+              }
+            }
+
+            & div:last-child {
+              &:hover {
+                background-color: var(--black);
+              }
+            }
+
+        }
+
+
+      }
+    }
 
     
     
