@@ -700,6 +700,33 @@
       }
     }
 
+    .test-section {
+
+      .container {
+
+        gap: rem(120);
+
+        .test-heading {
+  
+          .heading-left {
+            max-width: rem(520);
+  
+            span {
+              position: relative;
+              right: rem(170);
+              top: rem(32);
+            }
+          }
+  
+          .heading-right {
+            gap: rem(40);
+          }
+        }
+
+      }
+
+    }
+
     
     
   }
